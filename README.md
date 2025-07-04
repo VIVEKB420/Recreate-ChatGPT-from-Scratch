@@ -11,8 +11,8 @@ ChatGPT is a probabilistic system that gives mulitple answers based on the promp
 4)	GPT: Generatively Pretrained Transformer. It is a NN that does heavy lifting under the hood.
    
 Stages:
-1)	Pre training stage – train large chunk of internet on a decoder only transformer to babble text
-2)	Fine Tuning stage – multiple steps-> Gather data, reward, and fine tune.
+1)	Pre training stage – Train large chunk of internet on a decoder only transformer to babble text
+2)	Fine Tuning stage –  Multiple steps-> Gather data, reward, and fine tune.
    
 Architecture:
 1.	Decoder uses a triangular mask to mask out the attention for language modelling. Sequential results-> Blabbering
