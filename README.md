@@ -9,6 +9,7 @@ ChatGPT is a probabilistic system that gives mulitple answers based on the promp
 2)	Google uses SentencePiece tokenizer, ChatGPT uses tiktoken for tokenizer(Trade off to consider: long sequence of numbers, small size of the vocab OR short sequence of integers, big size of the vocab)
 3)	Neural Network(NN) under the hood: Paper(2017):  Attention is all you need. It has roposed transformer architecture.
 4)	GPT: Generatively Pretrained Transformer. It is a NN that does heavy lifting under the hood.
+   
 Stages:
 1)	Pre training stage – train large chunk of internet on a decoder only transformer to babble text
 2)	Fine Tuning stage – multiple steps-> Gather data, reward, and fine tune.
